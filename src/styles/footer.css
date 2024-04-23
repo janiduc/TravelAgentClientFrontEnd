@@ -1,0 +1,21 @@
+.footer {
+  background-color: #131212;
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+.footer h4 {
+  color: #ffffff;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer a:hover {
+  color: #000000;
+}
