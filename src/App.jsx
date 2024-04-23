@@ -31,6 +31,7 @@ function App() {
                                                         </ProtectedRoute>}/>
                     
                 </Routes>
+                <footer/>
             </Router>
     );
 }
