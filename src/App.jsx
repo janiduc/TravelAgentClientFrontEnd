@@ -9,7 +9,7 @@ import CreateBooking from './components/createBooking';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import AboutUs from './components/aboutUs';
-//import Footerr from './components/footer';
+
 
 function App() {
     return (
