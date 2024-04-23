@@ -82,9 +82,10 @@ const Home = () => {
                         </div>
                     </div>
                 ))}
-                <video autoPlay loop muted className="video-clip">
-                    <source src={VideoClip} type="video/mp4" />
-                </video>
+                <video autoPlay loop muted className="video-clip" style={{ transform: 'scale(1.0)', marginBottom: '20%' }}>
+    <source src={VideoClip} type="video/mp4" />
+</video>
+
             </div>
         </div>
     );

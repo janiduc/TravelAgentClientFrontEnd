@@ -29,19 +29,20 @@ export default function Navbar() {
 
   const end = (
     <div className="flex align-items-center">
-      
       {!isLoggedIn ? (
+        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
         <>
-          <Link to="/login" className="p-menuitem-link">
-            <i className="pi pi-sign-in"></i>
-            <span>Log In</span>
-          </Link>
-          <Link to="/createuser" className="p-menuitem-link">
-            <i className="pi pi-angle-up"></i>
-            <span>Sign up</span>
-          </Link>
-          
+            <Link to="/login" className="p-menuitem-link">
+                <i className="pi pi-sign-in"></i>
+                <span>Log In</span>
+            </Link>
+            <Link to="/createuser" className="p-menuitem-link">
+                <i className="pi pi-angle-up"></i>
+                <span>Sign up</span>
+            </Link>
         </>
+    </div>
+    
       ) : (
         <>
           
@@ -61,7 +62,7 @@ export default function Navbar() {
 
   return (
     <div className="navbar">
-      <Menubar model={items} start={start} end={end} />
+      <Menubar model={items} start={start} end={end} style={{width: "100%", margin: '0'}}/>
     </div>
   );
 }

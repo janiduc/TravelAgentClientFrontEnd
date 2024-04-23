@@ -9,6 +9,7 @@ import CreateBooking from './components/createBooking';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import AboutUs from './components/aboutUs';
+//import Footer from './components/footer.jsx';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
                                                         </ProtectedRoute>}/>
                     
                 </Routes>
-                <footer/>
+                
             </Router>
     );
 }
