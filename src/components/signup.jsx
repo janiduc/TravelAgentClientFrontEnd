@@ -127,7 +127,7 @@ const SignUpPage = () => {
 
             <div className="p-field">
               <Button
-                label="Login"
+                label="Sign-Up"
                 type="submit"
                 className="p-button-rounded p-button-lg p-button-success"
               />
